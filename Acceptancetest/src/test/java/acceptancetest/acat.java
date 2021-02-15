@@ -24,7 +24,7 @@ public class acat {
 		wait = new WebDriverWait(driver, 10);
 		driver.get(URL);
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-		// Login Page content check
+		// Login Page content check --- testing webhook
 		//driver.findElement(By.xpath("//h1[text()='JUPITER COMMUNICATION']")).isDisplayed(); Git Poll test
 		driver.findElement(By.name("username")).isDisplayed();
 		driver.findElement(By.name("userpassword")).isDisplayed();
